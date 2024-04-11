@@ -1,0 +1,10 @@
+<div class="experiences-container">
+    <div  *ngIf="!isFlipped" class="experiences-text-container" (click)="flipCard()">
+        <h1 class="experiences-text">experience</h1>
+    </div>
+
+    <div *ngIf="isFlipped" class="experiences-content-container" (click)="flipCard()">
+        <app-experience-card></app-experience-card>
+    </div>
+</div>
+

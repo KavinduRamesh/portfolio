@@ -1,0 +1,19 @@
+.experiences-text{
+    font-size: 300px;
+    width: 100%;
+    color: #615d5d;
+
+}
+.experiences-container{
+    margin-top: 5%;
+    text-align: center;
+    height: 100vh;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center; /* horizontally center */
+    align-items: center; /* vertically center */
+
+
+}
+
+/* /////////////////////////// */

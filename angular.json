@@ -35,9 +35,11 @@
               "src/assets"
             ],
             "styles": [
+              "@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.css"
             ],
-            "scripts": [],
+            "scripts": [
+          ],
             "server": "src/main.server.ts",
             "prerender": true,
             "ssr": {
@@ -99,6 +101,7 @@
               "src/assets"
             ],
             "styles": [
+              "@angular/material/prebuilt-themes/indigo-pink.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -106,5 +109,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "ff1c6f49-12ca-4f81-9cf1-d33d6dec30ad"
   }
 }

@@ -1,0 +1,15 @@
+<div class="technologies-container">
+  <div  *ngIf="!isFlipped" class="technologies-text-container" (click)="flipCard()">
+      <h1 class="technologies-text">TechStack</h1>
+      <h3>Click me</h3>
+  </div>
+
+  <div *ngIf="isFlipped" class="technologies-content-container" (click)="flipCard()">
+      <div class="technology-header">
+        <h1 class="tech-header-text">technologies.</h1>
+        <p class="tech-stack-desc">This is the tech stack that i am going to working ahead.This is the tech stack that i am going to working ahead.This is the tech stack that i am going to working ahead.</p>
+      </div>
+      <app-tech-list></app-tech-list>
+  </div>
+</div>
+

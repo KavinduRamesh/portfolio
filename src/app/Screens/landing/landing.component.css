@@ -1,0 +1,16 @@
+body{
+    background-color: red !important;
+}
+.container-main{
+    display: flex; /* Enable flexbox */
+    flex-direction: column; /* Stack components vertically */
+}
+.app-container{
+    margin: 0 10% !important;
+    /* background-color: rebeccapurple; */
+    border:  1px white solid;
+}
+
+
+/* /////////////// */
+

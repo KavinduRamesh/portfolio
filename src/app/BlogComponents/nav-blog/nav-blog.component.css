@@ -1,0 +1,21 @@
+.nav-container{
+    width: 100%;
+    height: 30px;
+    margin-top: 2%;
+
+}
+.icons-container{
+    padding: 1%;
+    margin-left: 8%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    min-width: 400px;
+    width: 400px;
+    margin-left: 35%;
+    
+}
+
+.row{
+    margin-left: 5%;
+}
+

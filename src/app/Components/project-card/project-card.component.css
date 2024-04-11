@@ -1,0 +1,86 @@
+.project-card-container {
+    width: 85%;
+    height: 100%;
+    /* border: 2px rgb(248, 248, 248) solid; */
+    border-radius: 12px;
+    background: rgb(27, 27, 27);
+    position: relative; /* Add this line */
+    margin-left: 7%;
+}
+
+.project-img-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    position: relative; /* Add this line */
+    padding: 10px;
+    
+}
+
+.project-img {
+    width: 95%;
+    /* border: 2px solid white; */
+    border-radius: 12px;
+}
+
+.git-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 7%;
+    margin-top: 4%;
+    width: 30px; /* Adjust as needed */
+    height: 30px; /* Adjust as needed */
+    background-color: black;
+    border-radius: 100%;
+}
+
+.project-header {
+    font-weight: bolder;
+    color: white;
+    text-align: left;
+    margin-left: 3%;
+}
+
+.project-desc {
+    font-style: italic;
+    text-align: justify;
+    color: rgb(203, 198, 198);
+    padding: 0% 4% 4% 4%;
+    margin-top: -5%;
+    font-size: 17px;
+}
+
+.tag-1 {
+    color: rgb(20, 218, 27);
+    text-align: left;
+    margin-left: 3%;
+    margin-top: -5%;
+    font-size: 16px;
+}
+.tag-2 {
+    color: rgb(159, 218, 20);
+    text-align: left;
+    margin-left: 2%;
+    margin-top: -5%;
+    font-size: 16px;
+
+}
+.tag-3 {
+    color: rgb(20, 218, 188);
+    text-align: left;
+    margin-left: 2%;
+    margin-top: -5%;
+    font-size: 16px;
+}
+.tag-4 {
+    color: rgb(218, 20, 188);
+    text-align: left;
+    margin-left: 2%;
+    margin-top: -5%;
+    font-size: 16px;
+}
+.tag-container{
+    display: flex;
+}

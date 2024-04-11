@@ -1,0 +1,42 @@
+.techlist-container{
+    width: 100%;
+    /* background-color: rgb(18, 91, 16); */
+    margin: 0;
+    
+}
+
+.techlist-container{
+  border: 2px solid white;
+  border-radius: 8px;
+  /* width: auto; */
+  min-width: 450px;
+  margin-left: 1%;
+}
+
+.fe-card{
+  /* width: 50%; */
+  /* background-color: red; */
+}
+.container{
+  /* background-color: rebeccapurple; */
+}
+.col-md-6{
+  /* background-color: yellow; */
+}
+.rows{
+  display: flex;
+  justify-content: center;
+}
+
+.tech-header{
+  color: white;
+  margin-top: 2%;
+}
+
+.card-row{
+
+}
+
+.box-container{
+  margin-bottom: 5%;
+}
