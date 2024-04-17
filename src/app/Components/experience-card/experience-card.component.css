@@ -21,7 +21,7 @@ body {
 
 }
 .section__brick {
-  background-color: #e0e1e2;
+  background-color: #565858;
   width: 75%;
   margin-left: auto;
   margin-right: auto;
@@ -32,6 +32,8 @@ body {
   transform: skew(-6deg);
   transition: box-shadow 0.3s ease;
   min-height: 205px;
+  color: white;
+
 }
 /* .section__brick:hover {
   box-shadow: 0 0 8px 5px rgba(132, 142, 161, 0.15);

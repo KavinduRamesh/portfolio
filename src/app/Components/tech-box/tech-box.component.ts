@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-tech-box',
@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrl: './tech-box.component.css'
 })
 export class TechBoxComponent {
+  @Input() techStackData: any;
+  
 
 }

@@ -6,7 +6,8 @@ import { Component } from '@angular/core';
   styleUrl: './technologies.component.css'
 })
 export class TechnologiesComponent {
-
+  header:string = "technologies."
+  description:string = "This is the tech stack that i am going to working ahead.This is the tech stack that i am going to working ahead.This is the tech stack that i am going to working ahead.";
   isFlipped = true;
 
   flipCard() {
