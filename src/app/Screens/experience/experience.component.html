@@ -1,10 +1,11 @@
-<div class="experiences-container">
-    <div  *ngIf="!isFlipped" class="experiences-text-container" (click)="flipCard()">
-        <h1 class="experiences-text">experience</h1>
-    </div>
-
-    <div *ngIf="isFlipped" class="experiences-content-container" (click)="flipCard()">
+<div class="experience-container">
+    <div class="experiences-content-container">
+        <div class="header-container">
+            <h1 class="header">Experience</h1>
+            <p class="exp-desc">Following projects showcases my skills and experience through real-world examples of my work. Each project is briefly described with links to code repositories in it. If reflects my ability to solve complex problems, work with different technologies, and manage projects effectively.</p>
+        </div>
         <app-experience-card></app-experience-card>
     </div>
 </div>
+
 

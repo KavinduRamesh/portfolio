@@ -1,19 +1,88 @@
-.experiences-text{
-    font-size: 300px;
-    width: 100%;
-    color: #615d5d;
+@media only screen and (min-width: 360px) {
 
+    .experience-container{
+        /* margin-top: 20%; */
+        /* margin-left: 10%; */
+        text-align: center;
+        /* height: 100vh; */
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: center; /* horizontally center */
+        /* align-items: center; vertically center */
+        width: 100%;
+    
+    
+    }
+    .header{
+        font-size: 70px;
+        width: auto;
+        color: #ffffff;
+        text-align: left;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 5%;
+        margin-top: 5%;
+        text-align: center;
+    }
+    .exp-desc{
+        color: rgb(255, 255, 255);
+        margin: 2% 0% 0 0%;
+        text-align: justify;
+        font-size: 23px;
+        line-height: 2rem;
+        font-family: Arial, Helvetica, sans-serif;
+        width: 100%;
+        padding: 3%;
+    
+    }
+    .header-container{
+        /* display: flex;
+        flex-direction: column;
+        justify-content: center; */
+        text-align: center;
+    }
 }
-.experiences-container{
-    margin-top: 5%;
-    text-align: center;
-    height: 100vh;
-    /* background-color: red; */
-    display: flex;
-    justify-content: center; /* horizontally center */
-    align-items: center; /* vertically center */
 
-
+@media only screen and (min-width: 1024px) {
+    .experiences-text{
+        font-size: 300px;
+        width: 100%;
+        color: #615d5d;
+    
+    }
+    .experience-container{
+        margin-top: 7%;
+        text-align: center;
+        height: 100vh;
+        /* background-color: red; */
+        display: flex;
+        justify-content: center; /* horizontally center */
+        align-items: center; /* vertically center */
+    
+    
+    }
+    .header{
+        font-size: 120px;
+        width: auto;
+        color: #ffffff;
+        text-align: left;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 5%;
+    }
+    .exp-desc{
+        color: rgb(255, 255, 255);
+        margin: 2% 40% 0 10%;
+        text-align: justify;
+        font-size: 23px;
+        line-height: 2rem;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 2% 0;
+        width: 90%;
+    
+    }
+    .header-container{
+        margin-left: 7%;
+    }
 }
+
 
 /* /////////////////////////// */

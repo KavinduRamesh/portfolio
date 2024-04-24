@@ -10,6 +10,62 @@ body{
     /* background-color: rebeccapurple; */
     border:  1px white solid;
 }
+/* 
+.section1{
+
+}
+.section2{
+    
+}
+.section3{
+    
+}
+.section4{
+    
+}
+.section5{
+    
+}
+
+@media only screen and (min-width: 360px) and (max-width: 385px)  {
+}
+
+@media only screen and (min-width: 385px) and (max-width: 420px)  {
+
+    .section2{
+        margin-top: -35%;
+    }
+    .section3{
+        
+    }
+    .section4{
+        
+    }
+    .section5{
+        
+    }
+}
+
+@media only screen and (min-width: 420px) and (max-width: 440px)  {
+
+    .section2{
+        margin-top: -55%;
+    }
+    .section3{
+        
+    }
+    .section4{
+        
+    }
+    .section5{
+        
+    }
+} */
+
+@media only screen and (min-width: 490px) and (max-width: 767px)  {
+}
+@media only screen and (min-width: 490px) and (max-width: 767px)  {
+}
 
 
 /* /////////////// */

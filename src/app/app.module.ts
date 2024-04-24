@@ -29,6 +29,8 @@ import { NavBlogComponent } from './BlogComponents/nav-blog/nav-blog.component';
 import { BlogPostComponent } from './BlogComponents/blog-post/blog-post.component';
 import { BlogScreenComponent } from './BlogComponents/blog-screen/blog-screen.component';
 import { AboutmeComponent } from './BlogComponents/aboutme/aboutme.component';
+import { InternComponent } from './Components/intern/intern.component';
+import { AseComponent } from './Components/ase/ase.component';
 
 
 @NgModule({
@@ -56,7 +58,9 @@ import { AboutmeComponent } from './BlogComponents/aboutme/aboutme.component';
     BlogPostComponent,
     BlogScreenComponent,
     AboutmeComponent,
-    PostComponent
+    PostComponent,
+    InternComponent,
+    AseComponent
   ],
   imports: [
     BrowserModule,

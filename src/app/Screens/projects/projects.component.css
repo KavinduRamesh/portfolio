@@ -1,46 +1,104 @@
-.project-text{
-    font-size: 60px;
-    width: auto;
-    color: #615d5d;
-    text-align: left;
-
-}
-.project-text-container{
-    /* background-color: red; */
-    width: 80%;
-    margin-top: 2%;
-}
-.projects-container{
-    /* margin-top: 15%; */
-    /* text-align: center; */
-    /* min-width: 1000px !important; */
-    /* height: 100vh; */
-    /* background-color: red; */
-    /* height: 100vh; */
+@media only screen and (min-width: 360px) {
+ .project-text{
+        font-size: 45px;
+        width: 100%;
+        color: #ffffff;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 3%;
+        letter-spacing: 1px; /* Adjust this value as needed */  
+ }
+ .row{
     display: flex;
-    justify-content: center; /* horizontally center */
-    align-items: center; /* vertically center */
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+
+        .project-text-container{
+            /* background-color: red; */
+            width: 100%;
+            margin-top: 2%;
+        }
+        .projects-container{
+            width: 100%;
+            margin-top: 10%;
+        }
+        a{
+            text-decoration: none;
+        }
+        .container{
+        
+        }
+        .card-col{
+            margin-top: 4%;
+            margin-bottom: 0px;
+            display: flex;
+            justify-content: center; /* Horizontally center */
+            align-items: center; /* Vertically center */
+        }
 
 
-}
-a{
-    text-decoration: none;
-}
-/* /////////////////////////// */
-.container{
+        .project-description{
+            color: rgb(255, 255, 255);
+            margin: 5% 0% 0 0%;
+            text-align: justify;
+            font-size: 22px;
+            line-height: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            width: 95%;
+            padding-left: 5%;
 
-}
-.card-col{
-    /* background-color: green; */
+        }
+        .project-description-container{
+            width: 100%;
+        }
 
-    margin-top: 4%;
+  }
 
-}
-.project-description{
-    color: rgb(170, 166, 166);
-    margin: 2% 40% 0 10%;
-    text-align: justify;
-    font-size: 15px;
-    /* line-height: 1.9rem; */
+  @media only screen and (min-width: 1024px){
+    .project-text{
+        font-size: 120px;
+        width: auto;
+        color: #ffffff;
+        text-align: left;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 3%;
+        letter-spacing: 1px; /* Adjust this value as needed */
+    
+    }
+    .project-text-container{
+        /* background-color: red; */
+        width: 80%;
+        margin-top: 2%;
+    }
+    .projects-container{
+    
+        display: flex;
+        justify-content: center; /* horizontally center */
+        align-items: center; /* vertically center */
+        flex-direction: column;
+        z-index: 1 !important;
+    }
+    a{
+        text-decoration: none;
+    }
+    .container{
+    
+    }
+    .card-col{
+        margin-top: 4%;
+        margin-bottom: 0px;
+    
+    }
+    .project-description{
+        color: rgb(255, 255, 255);
+        margin: 2% 40% 0 10%;
+        text-align: justify;
+        font-size: 23px;
+        line-height: 2rem;
+        font-family: Arial, Helvetica, sans-serif;
+        z-index: 1 !important;
+    
+    
+    }
 }

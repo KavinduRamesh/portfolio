@@ -1,15 +1,12 @@
 <div class="technologies-container">
-  <div  *ngIf="!isFlipped" class="technologies-text-container" (click)="flipCard()">
-      <h1 class="technologies-text">TechStack</h1>
-      <h3>Click me</h3>
-  </div>
-
-  <div *ngIf="isFlipped" class="technologies-content-container" (click)="flipCard()">
+  <div *ngIf="isFlipped" class="technologies-content-container">
       <div class="technology-header">
         <h1 class="tech-header-text">{{header}}</h1>
         <p class="tech-stack-desc">{{description}}</p>
       </div>
-      <app-tech-list></app-tech-list>
+      <div class="tech-comp">
+        <app-tech-list></app-tech-list>
+      </div>
   </div>
 </div>
 

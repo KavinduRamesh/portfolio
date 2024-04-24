@@ -1,41 +1,85 @@
-.technologies-text{
-    font-size: 300px;
-    width: auto;
-    margin-left: -50px;
-}
-.technologies-container{
-    width: 100%;
-    text-align: center;
-    /* background-color: rgb(77, 69, 69); */
-    height: 100vh;
-    display: flex;
-    justify-content: center; /* horizontally center */
-    align-items: center; /* vertically center */
 
-}
-.technologies-content-container{
-    width: 100%;
-    margin: 0 0%;
-    /* background-color: red; */
+@media only screen and (min-width: 360px) {
 
+    .technologies-container{
+        margin-top: 10%;
+        /* width: 100vw; */
+        width: 100%;
+        /* background-color: red; */
+    }
+    .tech-header-text{
+        font-size: 38px;
+        color: white;
+        text-align: center;
+        
+    }
+    .tech-stack-desc{
+        font-size: 17px;
+        width: 100%;
+        padding: 0 5%;
+        text-align: justify;
+        /* margin-left: 2%; */
+        color: white;
+        
+    }
+    .technology-header{
+        width: 100%;
+    }
+    .technologies-content-container{
+        width: 100%;
+    }
+    .tech-comp{
+        width: 100%;
+    }
 }
-.tech-header-text{
-    color: rgb(118, 116, 116);
-    font-size: 60px;
-    text-align: left;
-    margin-left: 7.5%;
+@media only screen and (min-width: 1024px) {
+    .technologies-text{
+        font-size: 300px;
+        width: auto;
+        margin-left: -50px;
+        font-family: Arial, Helvetica, sans-serif;
+    
+    }
+    .technologies-container{
+        width: 100%;
+        text-align: center;
+        /* background-color: rgb(77, 69, 69); */
+        height: 100vh;
+        display: flex;
+        justify-content: center; /* horizontally center */
+        align-items: center; /* vertically center */
+    
+    }
+    .technologies-content-container{
+        width: 100%;
+        margin: 0 0%;
+        /* background-color: red; */
+    
+    }
+    .tech-header-text{
+        color: rgb(255, 255, 255);
+        font-size: 120px;
+        text-align: left;
+        margin-left: 7.5%;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 4%;
+        margin-top: 8%;
+    
+    }
+    .technology-header{
+        margin-bottom: 100px;
+    }
+    .tech-stack-desc{
+        text-align: left;
+        margin-left: 7.5%;
+        text-align: justify;
+        width: 44%;
+        margin-top: 2%;
+        margin-bottom: -3%;
+        color: rgb(255, 255, 255);
+        font-size: 23px;
+        line-height: 2rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
 }
-.technology-header{
-    margin-bottom: 100px;
-}
-.tech-stack-desc{
-    text-align: left;
-    margin-left: 7.5%;
-    text-align: justify;
-    width: 40%;
-    margin-top: 2%;
-    margin-bottom: -3%;
-    color: rgb(170, 166, 166);
-    font-size: 15px;
 
-}

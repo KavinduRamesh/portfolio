@@ -9,8 +9,9 @@
   border: 2px solid white;
   border-radius: 8px;
   /* width: auto; */
-  min-width: 450px;
-  margin-left: 1%;
+  /* min-width: 450px; */
+  /* margin-left: 1%; */
+  width: 100%;
 }
 
 .fe-card{
@@ -19,14 +20,20 @@
 }
 .container{
   /* background-color: rebeccapurple; */
+  width: 100%;
 }
 .col-md-6{
   /* background-color: yellow; */
+
 }
-.rows{
+.rows, col{
   display: flex;
   justify-content: center;
+  /* background-color: red; */
+  width: 100%;
+
 }
+
 
 .tech-header{
   color: white;
@@ -39,4 +46,20 @@
 
 .box-container{
   margin-bottom: 5%;
+}
+
+@media only screen and (min-width: 360px) {
+  .techlist-container{
+    border: 2px solid white;
+    border-radius: 8px;
+    /* width: auto; */
+    /* min-width: 400px; */
+    /* margin-left: 1%; */
+  }
+}
+
+@media only screen and (min-width: 360px) {
+  .techlist-container{
+    border: none;
+  }
 }

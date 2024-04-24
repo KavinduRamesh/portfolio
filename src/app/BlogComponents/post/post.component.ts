@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrl: './post.component.css'
 })
 export class PostComponent {
+  isClicked = true;
 
+  readmore() {
+    this.isClicked = !this.isClicked;
+  }
 }
