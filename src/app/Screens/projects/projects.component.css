@@ -78,6 +78,7 @@
         align-items: center; /* vertically center */
         flex-direction: column;
         z-index: 1 !important;
+        margin-top: 85px;
     }
     a{
         text-decoration: none;
@@ -92,13 +93,18 @@
     }
     .project-description{
         color: rgb(255, 255, 255);
-        margin: 2% 40% 0 10%;
+        margin: 4% 40% 0 10%;
         text-align: justify;
         font-size: 23px;
         line-height: 2rem;
         font-family: Arial, Helvetica, sans-serif;
         z-index: 1 !important;
+        width: 70%;
     
     
     }
+}
+
+.projects-container{
+    /* background-color: rebeccapurple; */
 }

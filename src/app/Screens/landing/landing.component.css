@@ -10,7 +10,7 @@ body{
     /* background-color: rebeccapurple; */
     border:  1px white solid;
 }
-/* 
+
 .section1{
 
 }
@@ -26,14 +26,14 @@ body{
 .section5{
     
 }
-
+/* 
 @media only screen and (min-width: 360px) and (max-width: 385px)  {
-}
+} */
 
-@media only screen and (min-width: 385px) and (max-width: 420px)  {
+/* @media only screen and (min-width: 360px) and (max-width: 490px)  {
 
     .section2{
-        margin-top: -35%;
+        margin-top: -55%;
     }
     .section3{
         
@@ -44,7 +44,8 @@ body{
     .section5{
         
     }
-}
+} */
+/*
 
 @media only screen and (min-width: 420px) and (max-width: 440px)  {
 

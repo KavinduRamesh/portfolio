@@ -1,115 +1,422 @@
+@media screen and (min-width: 240px) and (max-width: 400px) {  
+.home-container {
+  width: 100%;
+  height: 100vh;
+  padding-top: 1%;
+  position: relative;
+}
 
-  
-  @-moz-keyframes shine {
-    0% {
-      background-position: 0;
-    }
-    60% {
-      background-position: 580px;
-    }
-    100% {
-      background-position: 980px;
-    }
-  }
-  @-webkit-keyframes shine {
-    0% {
-      background-position: 0;
-    }
-    60% {
-      background-position: 580px;
-    }
-    100% {
-      background-position: 980px;
-    }
-  }
-  @-o-keyframes shine {
-    0% {
-      background-position: 0;
-    }
-    60% {
-      background-position: 580px;
-    }
-    100% {
-      background-position: 980px;
-    }
-  }
-  @keyframes shine {
-    0% {
-      background-position: 0;
-    }
-    60% {
-      background-position: 580px;
-    }
-    100% {
-      background-position: 980px;
-    }
-  }
-  
+.top-bar {
+display: flex;
+flex-direction: row;
+padding: 20px 20px 5% 20px;
+width: 100%;
+}
 
-  
-  
+.name {
+margin-left: 5%;
+}
 
-/* /////////////////media Queries///////////////////// */
-@media only screen and (min-width: 360px) {
+.icons {
+/* margin-left: 40px !important; */
+color: #ffffff; /* Adjust as needed */
+float: right;
+width: 100%;
+align-items: end;
+}
 
-  .top-bar{
-    display: flex;
-    flex-direction: row;
-    padding: 20px 20px 5% 20px;
-    /* background-color: greenyellow; */
-  }
+.home-container {
+position: relative;
+}
+
+.blog-btn {
+background-color: #ffffff;
+color: black;
+font-weight: bolder;
+border-radius: 2px;
+cursor: pointer;
+width: 50px;
+height: 25px;
+font-size: 15px;
+float: right;
+}
+
+.btn-shine {
+background: linear-gradient(to right, #4d4d4d 0, #fff 10%, #4d4d4d 30%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+animation: shine 15s infinite linear;
+animation-fill-mode: forwards;
+-webkit-text-size-adjust: none;
+font-weight: 600;
+text-decoration: none;
+white-space: nowrap;
+font-size: 20px; 
+}
+@-moz-keyframes shine {
+0% {
+  background-position: 0;
+}
+60% {
+  background-position: 580px;
+}
+100% {
+  background-position: 980px;
+}
+}
+@-webkit-keyframes shine {
+0% {
+  background-position: 0;
+}
+60% {
+  background-position: 580px;
+}
+100% {
+  background-position: 980px;
+}
+}
+@-o-keyframes shine {
+0% {
+  background-position: 0;
+}
+60% {
+  background-position: 580px;
+}
+100% {
+  background-position: 980px;
+}
+}
+@keyframes shine {
+0% {
+  background-position: 0;
+}
+60% {
+  background-position: 580px;
+}
+100% {
+  background-position: 980px;
+}
+}
+
+.header1 {
+font-size: 85px;
+font-family: Arial, Helvetica, sans-serif;
+color: rgb(196, 189, 189);
+text-align: center;
+line-height: 85px; /* Adjust this value to set the desired line spacing */
+}
+
+.cv-btn{
+  width: 40%;
+  height: 40px;
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  border-radius: 12px;
+  font-size: 20px;
+  margin-left: 28%;
   
-  .social-media-icons{
-    display: flex;
-    flex-direction: row;
-    /* background-color: yellow; */
-    
-  }
-  
+}
+.home-header1{
+}
+
+}
+
+@media screen and (min-width: 400px) and (max-width: 768px) {  
   .home-container {
     width: 100%;
     height: 100vh;
-    /* background-color: rebeccapurple; */
     padding-top: 1%;
     position: relative;
   }
   
-  .top-bar .social-media-icons {
-    margin-left: auto; /* Push to the right */
-  }
-  .name{
-    margin-left: 5%;
-  }
-  
-  .name-text{
-    font-family: 'Roboto', sans-serif;
-    letter-spacing: 2px; /* Adjust as needed */
-    font-size: 28px !important; /* Adjust as needed */
-    color: #ffffff; /* Adjust as needed */
+  .top-bar {
+  display: flex;
+  flex-direction: row;
+  padding: 20px 20px 5% 20px;
+  width: 100%;
+  /* background-color: red; */
   }
   
-  .icons{
-    /* margin-left: 40px !important; */
-    color: #ffffff; /* Adjust as needed */
-    ;
+  .name {
+  margin-left: 5%;
+  }
+  
+  .icons {
+  /* margin-left: 40px !important; */
+  color: #ffffff; /* Adjust as needed */
+  float: right;
+  width: 100%;
+  align-items: end;
   }
   
   .home-container {
+  position: relative;
+  }
+  
+  .blog-btn {
+  background-color: #ffffff;
+  color: black;
+  font-weight: bolder;
+  border-radius: 2px;
+  cursor: pointer;
+  width: 50px;
+  height: 25px;
+  font-size: 15px;
+  float: right;
+  }
+  
+  .btn-shine {
+  background: linear-gradient(to right, #4d4d4d 0, #fff 10%, #4d4d4d 30%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 15s infinite linear;
+  animation-fill-mode: forwards;
+  -webkit-text-size-adjust: none;
+  font-weight: 600;
+  text-decoration: none;
+  white-space: nowrap;
+  font-size: 20px; 
+  }
+  @-moz-keyframes shine {
+  0% {
+    background-position: 0;
+  }
+  60% {
+    background-position: 580px;
+  }
+  100% {
+    background-position: 980px;
+  }
+  }
+  @-webkit-keyframes shine {
+  0% {
+    background-position: 0;
+  }
+  60% {
+    background-position: 580px;
+  }
+  100% {
+    background-position: 980px;
+  }
+  }
+  @-o-keyframes shine {
+  0% {
+    background-position: 0;
+  }
+  60% {
+    background-position: 580px;
+  }
+  100% {
+    background-position: 980px;
+  }
+  }
+  @keyframes shine {
+  0% {
+    background-position: 0;
+  }
+  60% {
+    background-position: 580px;
+  }
+  100% {
+    background-position: 980px;
+  }
+  }
+  
+  .header1 {
+  font-size: 95px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(196, 189, 189);
+  text-align: center;
+  margin-top: 10%;
+  line-height: 98px; /* Adjust this value to set the desired line spacing */
+  }
+  
+  .cv-btn{
+    width: 40%;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 12px;
+    font-size: 20px;
+    margin-left: 28%;
+    margin-top: 10%;
+    
+  }
+  .home-header1{
+    /* background-color: green; */
+  }
+  
+  }
+
+@media screen and (min-width: 768px) and (max-width: 819px) {  
+  .home-container {
+    width: 100%;
+    height: 100vh;
+    padding-top: 1%;
     position: relative;
   }
   
-  .blog-btn{
+  .top-bar {
+  display: flex;
+  flex-direction: row;
+  padding: 20px 20px 5% 20px;
+  width: 100%;
+  }
+  
+  .name {
+  margin-left: 5%;
+  }
+  
+  .icons {
+  /* margin-left: 40px !important; */
+  color: #ffffff; /* Adjust as needed */
+  float: right;
+  width: 100%;
+  align-items: end;
+  }
+  
+  .home-container {
+  position: relative;
+  }
+  
+  .blog-btn {
+  background-color: #ffffff;
+  color: black;
+  font-weight: bolder;
+  border-radius: 2px;
+  cursor: pointer;
+  width: 55px;
+  height: 30px;
+  font-size: 20px;
+  float: right;
+  }
+  
+  .btn-shine {
+  background: linear-gradient(to right, #4d4d4d 0, #fff 10%, #4d4d4d 30%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 15s infinite linear;
+  animation-fill-mode: forwards;
+  -webkit-text-size-adjust: none;
+  font-weight: 600;
+  text-decoration: none;
+  white-space: nowrap;
+  font-size: 40px; 
+  }
+  @-moz-keyframes shine {
+  0% {
+    background-position: 0;
+  }
+  60% {
+    background-position: 580px;
+  }
+  100% {
+    background-position: 980px;
+  }
+  }
+  @-webkit-keyframes shine {
+  0% {
+    background-position: 0;
+  }
+  60% {
+    background-position: 580px;
+  }
+  100% {
+    background-position: 980px;
+  }
+  }
+  @-o-keyframes shine {
+  0% {
+    background-position: 0;
+  }
+  60% {
+    background-position: 580px;
+  }
+  100% {
+    background-position: 980px;
+  }
+  }
+  @keyframes shine {
+  0% {
+    background-position: 0;
+  }
+  60% {
+    background-position: 580px;
+  }
+  100% {
+    background-position: 980px;
+  }
+  }
+  
+  .header1 {
+  font-size: 130px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(196, 189, 189);
+  text-align: center;
+  line-height: 130px; /* Adjust this value to set the desired line spacing */
+  }
+  
+  .cv-btn{
+    width: 50%;
+    height: 55px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 12px;
+    font-size: 30px;
+    margin-left: 25%;
+    margin-top: 10%;
+    
+  }
+  
+  }
+
+  @media screen and (min-width: 820px) and (max-width: 1024px) {  
+    .home-container {
+      width: 100%;
+      height: 100vh;
+      padding-top: 1%;
+      position: relative;
+    }
+    
+    .top-bar {
+    display: flex;
+    flex-direction: row;
+    padding: 20px 20px 5% 20px;
+    width: 100%;
+    }
+    
+    .name {
+    margin-left: 5%;
+    }
+    
+    .icons {
+    /* margin-left: 40px !important; */
+    color: #ffffff; /* Adjust as needed */
+    float: right;
+    width: 100%;
+    align-items: end;
+    }
+    
+    .home-container {
+    position: relative;
+    }
+    
+    .blog-btn {
     background-color: #ffffff;
     color: black;
     font-weight: bolder;
     border-radius: 2px;
     cursor: pointer;
-  }
-  
-  .container{
-  }
-  
-  .btn-shine {
+    width: 72px;
+    height: 37px;
+    font-size: 25px;
+    float: right;
+    }
+    
+    .btn-shine {
     background: linear-gradient(to right, #4d4d4d 0, #fff 10%, #4d4d4d 30%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -119,480 +426,203 @@
     font-weight: 600;
     text-decoration: none;
     white-space: nowrap;
-    font-size: 20px;
+    font-size: 40px; 
+    }
+    @-moz-keyframes shine {
+    0% {
+      background-position: 0;
+    }
+    60% {
+      background-position: 580px;
+    }
+    100% {
+      background-position: 980px;
+    }
+    }
+    @-webkit-keyframes shine {
+    0% {
+      background-position: 0;
+    }
+    60% {
+      background-position: 580px;
+    }
+    100% {
+      background-position: 980px;
+    }
+    }
+    @-o-keyframes shine {
+    0% {
+      background-position: 0;
+    }
+    60% {
+      background-position: 580px;
+    }
+    100% {
+      background-position: 980px;
+    }
+    }
+    @keyframes shine {
+    0% {
+      background-position: 0;
+    }
+    60% {
+      background-position: 580px;
+    }
+    100% {
+      background-position: 980px;
+    }
+    }
     
-  }
-  .home-header1{
-    background-color: red;
-  }
-  
-  .header1 {
-    font-size: 180px;
+    .header1 {
+    font-size: 150px;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(196, 189, 189);
-    text-align: left;
-    line-height: 170px; /* Adjust this value to set the desired line spacing */
-  
-  }
-  
-  .cv-btn{
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
-    font-size: 30px;
-    padding: 2%;
-    border: solid 2px white;
-    border-radius: 50px;
-    margin-left: 75%;
-    margin-top: -7%;
-    position: absolute;
-  }
-
-  .top-bar{
-    display: flex;
-    flex-direction: row;
-    padding: 20px 20px 5% 20px;
-    width: 100%;
-    background-color: green;
-  }
-  
-  .social-media-icons{
-    display: flex;
-    flex-direction: row;
-    background-color: yellow;
-    width: 100%;
-  }
-  
-  .name-text{
-    font-size: 15px !important; /* Adjust as needed */
-  }
-  
-  .icons{
-    margin-left: 30px;
-    color: #ffffff; /* Adjust as needed */
-  }
-
-  .header1 {
-    font-size: 80px;
     text-align: center;
-    line-height: 75px; /* Adjust this value to set the desired line spacing */
-  }
-  
-  .cv-btn{
-    font-size: 27px;
-    padding: 5%;
-    margin-left: 20%;
-    margin-top: 5%;
-  }
-  .fa-envelope{
-    display: none;
-  }
-  .fa-linkedin{
-    display: none;
-  }
-  }
-  
-  @media only screen and (min-width: 400px) {
-
-    .top-bar{
-      display: flex;
-      flex-direction: row;
-      padding: 20px 20px 5% 20px;
-      margin-right: 6%;
-      width: 100%;
-      background-color: green;
-
-    }
-    .home-header1{
-
-    }
-    
-    .social-media-icons{
-      display: flex;
-      flex-direction: row;
-      /* background-color: yellow; */
-      width: 100%;
-    }
-    
-    .name-text{
-      font-size: 20px !important; /* Adjust as needed */
-    }
-
-    .home-header1{
-      /* margin-left: 40%; */
-      justify-content: center;
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      background-color: blue;
-      width: 100% !important;
-    }
-    
-
-  
-    .header1 {
-      background-color: red;
-      font-size: 95px;
-      text-align: center;
-      line-height: 98px; /* Adjust this value to set the desired line spacing */
+    line-height: 150px; /* Adjust this value to set the desired line spacing */
     }
     
     .cv-btn{
-      font-size: 27px;
-      padding: 5%;
-      /* margin-left: 45%; */
-      margin-top: 5%;
+      width: 60%;
+      height: 65px;
+      background-color: black;
+      color: white;
+      border: 2px solid white;
+      border-radius: 12px;
+      font-size: 35px;
+      margin-left: 23%;
+      margin-top: 10%;
+      
     }
-    }
-
-    @media only screen and (min-width: 490px) and (max-width: 767px)  {
-
-      .top-bar{
-        display: flex;
-        flex-direction: row;
-        padding: 20px 20px 5% 20px;
-        margin-right: 6%;
-        width: 50%;
-      }
-      .home-header1{
-        width: 100%;
-        
-      }
-      .home-container{
-        width: 100% !important;
-      }
-      
-      .social-media-icons{
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        overflow: hidden;
-      }
-      
-      .name-text{
-        font-size: 35px !important; /* Adjust as needed */
-      }
-  
-      .home-header1{
-        margin-left: 1%;
-        justify-content: center;
-        display: flex;
-      }
-      
-  
     
-      .header1 {
-        font-size: 120px;
-        text-align: center;
-        line-height: 122px; /* Adjust this value to set the desired line spacing */
-      }
-      
-      .cv-btn{
-        font-size: 27px;
-        padding: 5%;
-        margin-left: 30%;
-        margin-top: 5%;
-        
-      }
-      }
-  
-  
-  @media only screen and (min-width: 768px) {
+    }
+    
 
-      .top-bar{
-        display: flex;
-        flex-direction: row;
-        padding: 20px 20px 5% 20px;
-        /* background-color: greenyellow; */
-        margin-right: 6%;
-      }
-      
-      .social-media-icons{
-        display: flex;
-        flex-direction: row;
-        /* background-color: yellow; */
-        margin-left: 0;
-        
-      }
-      
+    @media screen and (min-width: 1025px) {  
       .home-container {
         width: 100%;
         height: 100vh;
-        /* background-color: rebeccapurple; */
         padding-top: 1%;
         position: relative;
       }
       
-      .top-bar .social-media-icons {
-        margin-left: auto; /* Push to the right */
-      }
-      .name{
-        margin-left: 5%;
-      }
-      
-      .name-text{
-        font-family: 'Roboto', sans-serif;
-        letter-spacing: 2px; /* Adjust as needed */
-        font-size: 28px !important; /* Adjust as needed */
-        color: #ffffff; /* Adjust as needed */
+      .top-bar {
+      display: flex;
+      flex-direction: row;
+      padding: 20px 20px 0 20px;
+      width: 100%;
+      /* background-color: blue; */
       }
       
-      .icons{
-        margin-left: 40px !important;
-        color: #ffffff; /* Adjust as needed */
-        ;
+      .name {
+      margin-left: 5%;
+      }
+      
+      .icons {
+      /* margin-left: 40px !important; */
+      color: #ffffff; /* Adjust as needed */
+      float: right;
+      width: 100%;
+      align-items: end;
       }
       
       .home-container {
-        position: relative;
+      position: relative;
       }
       
-      .blog-btn{
-        background-color: #ffffff;
-        color: black;
-        font-weight: bolder;
-        border-radius: 2px;
-        cursor: pointer;
-      }
-      
-      .container{
-        margin-left: -30%;
+      .blog-btn {
+      background-color: #ffffff;
+      color: black;
+      font-weight: bolder;
+      border-radius: 2px;
+      cursor: pointer;
+      width: 72px;
+      height: 37px;
+      font-size: 25px;
+      float: right;
       }
       
       .btn-shine {
-        background: linear-gradient(to right, #4d4d4d 0, #fff 10%, #4d4d4d 30%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        animation: shine 15s infinite linear;
-        animation-fill-mode: forwards;
-        -webkit-text-size-adjust: none;
-        font-weight: 600;
-        text-decoration: none;
-        white-space: nowrap;
-        font-size: 20px;
-        
+      background: linear-gradient(to right, #4d4d4d 0, #fff 10%, #4d4d4d 30%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: shine 15s infinite linear;
+      animation-fill-mode: forwards;
+      -webkit-text-size-adjust: none;
+      font-weight: 600;
+      text-decoration: none;
+      white-space: nowrap;
+      font-size: 40px; 
       }
       @-moz-keyframes shine {
-        0% {
-          background-position: 0;
-        }
-        60% {
-          background-position: 580px;
-        }
-        100% {
-          background-position: 980px;
-        }
+      0% {
+        background-position: 0;
+      }
+      60% {
+        background-position: 580px;
+      }
+      100% {
+        background-position: 980px;
+      }
       }
       @-webkit-keyframes shine {
-        0% {
-          background-position: 0;
-        }
-        60% {
-          background-position: 580px;
-        }
-        100% {
-          background-position: 980px;
-        }
+      0% {
+        background-position: 0;
+      }
+      60% {
+        background-position: 580px;
+      }
+      100% {
+        background-position: 980px;
+      }
       }
       @-o-keyframes shine {
-        0% {
-          background-position: 0;
-        }
-        60% {
-          background-position: 580px;
-        }
-        100% {
-          background-position: 980px;
-        }
+      0% {
+        background-position: 0;
+      }
+      60% {
+        background-position: 580px;
+      }
+      100% {
+        background-position: 980px;
+      }
       }
       @keyframes shine {
-        0% {
-          background-position: 0;
-        }
-        60% {
-          background-position: 580px;
-        }
-        100% {
-          background-position: 980px;
-        }
+      0% {
+        background-position: 0;
       }
-      
-      .home-header1{
-        margin-left: 2%;
+      60% {
+        background-position: 580px;
+      }
+      100% {
+        background-position: 980px;
+      }
       }
       
       .header1 {
-        font-size: 150px;
-        font-family: Arial, Helvetica, sans-serif;
-        color: rgb(196, 189, 189);
-        text-align: center;
-        line-height: 150px; /* Adjust this value to set the desired line spacing */
-      
+        /* background-color: red; */
+      margin-left: 1%;
+      font-size: 180px;
+      font-family: Arial, Helvetica, sans-serif;
+      color: rgb(196, 189, 189);
+      text-align: left;
+      line-height: 180px; /* Adjust this value to set the desired line spacing */
       }
       
       .cv-btn{
+        width: 20%;
+        height: 65px;
         background-color: rgb(0, 0, 0);
         color: rgb(255, 255, 255);
+        border: 2px solid rgb(255, 255, 255);
+        border-radius: 12px;
         font-size: 30px;
-        padding: 2%;
-        border: solid 2px white;
-        border-radius: 50px;
-        margin-left: 40%;
-        position: absolute;
+        float: right; 
+        margin-top: -7%;
+        margin-right: 5%;
+      }
+      .home-header1{
+
       }
       
       }
-
-  @media only screen and (min-width: 1024px) {
-
-   
-  .top-bar{
-    display: flex;
-    flex-direction: row;
-    padding: 20px 20px 5% 20px;
-    /* background-color: greenyellow; */
-    margin-right: 6%;
-  }
-  
-  .social-media-icons{
-    display: flex;
-    flex-direction: row;
-    /* background-color: yellow; */
-    margin-left: 0;
-    
-  }
-  
-  .home-container {
-    width: 100%;
-    height: 100vh;
-    /* background-color: rebeccapurple; */
-    padding-top: 1%;
-    position: relative;
-  }
-  
-  .top-bar .social-media-icons {
-    margin-left: auto; /* Push to the right */
-  }
-  .name{
-    margin-left: 5%;
-  }
-  
-  .name-text{
-    font-family: 'Roboto', sans-serif;
-    letter-spacing: 2px; /* Adjust as needed */
-    font-size: 28px !important; /* Adjust as needed */
-    color: #ffffff; /* Adjust as needed */
-  }
-  
-  .icons{
-    margin-left: 40px !important;
-    color: #ffffff; /* Adjust as needed */
-    ;
-  }
-  
-  .home-container {
-    position: relative;
-  }
-  
-  .blog-btn{
-    background-color: #ffffff;
-    color: black;
-    font-weight: bolder;
-    border-radius: 2px;
-    cursor: pointer;
-  }
-  
-  .container{
-    margin-left: -30%;
-  }
-  
-  .btn-shine {
-    background: linear-gradient(to right, #4d4d4d 0, #fff 10%, #4d4d4d 30%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: shine 15s infinite linear;
-    animation-fill-mode: forwards;
-    -webkit-text-size-adjust: none;
-    font-weight: 600;
-    text-decoration: none;
-    white-space: nowrap;
-    font-size: 20px;
-    
-  }
-  @-moz-keyframes shine {
-    0% {
-      background-position: 0;
-    }
-    60% {
-      background-position: 580px;
-    }
-    100% {
-      background-position: 980px;
-    }
-  }
-  @-webkit-keyframes shine {
-    0% {
-      background-position: 0;
-    }
-    60% {
-      background-position: 580px;
-    }
-    100% {
-      background-position: 980px;
-    }
-  }
-  @-o-keyframes shine {
-    0% {
-      background-position: 0;
-    }
-    60% {
-      background-position: 580px;
-    }
-    100% {
-      background-position: 980px;
-    }
-  }
-  @keyframes shine {
-    0% {
-      background-position: 0;
-    }
-    60% {
-      background-position: 580px;
-    }
-    100% {
-      background-position: 980px;
-    }
-  }
-  
-  .home-header1{
-    margin-left: 2%;
-  }
-  
-  
-  .header1 {
-    font-size: 180px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(196, 189, 189);
-    text-align: left;
-    line-height: 170px; /* Adjust this value to set the desired line spacing */
-  
-  }
-  
-  .cv-btn{
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
-    font-size: 30px;
-    padding: 2%;
-    border: solid 2px white;
-    border-radius: 50px;
-    margin-left: 75%;
-    margin-top: -7%;
-    position: absolute;
-  }
-  
-  
-}
-  
-  
-
-
 

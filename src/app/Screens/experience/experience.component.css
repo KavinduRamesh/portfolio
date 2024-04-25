@@ -50,9 +50,9 @@
     
     }
     .experience-container{
-        margin-top: 7%;
+        margin-top: 1%;
         text-align: center;
-        height: 100vh;
+        height: 100%;
         /* background-color: red; */
         display: flex;
         justify-content: center; /* horizontally center */
