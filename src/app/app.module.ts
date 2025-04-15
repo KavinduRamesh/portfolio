@@ -10,11 +10,9 @@ import { MatTabsModule } from '@angular/material/tabs';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import { TechnologiesComponent } from './Screens/technologies/technologies.component';
 import { ProjectsComponent } from './Screens/projects/projects.component';
-import { EducationComponent } from './Screens/education/education.component';
 import { CvCardComponent } from './Components/cv-card/cv-card.component';
 import { CopyBtnComponent } from './Components/copy-btn/copy-btn.component';
 import { ExperienceComponent } from './Screens/experience/experience.component';
-import { FooterComponent } from './Components/footer/footer.component';
 import { LandingComponent } from './Screens/landing/landing.component';
 import { ProjectCardComponent } from './Components/project-card/project-card.component';
 import { ExperienceCardComponent } from './Components/experience-card/experience-card.component';
@@ -33,11 +31,9 @@ import { AseComponent } from './Components/ase/ase.component';
     TabComponent,
     TechnologiesComponent,
     ProjectsComponent,
-    EducationComponent,
     CvCardComponent,
     CopyBtnComponent,
     ExperienceComponent,
-    FooterComponent,
     LandingComponent,
     ProjectCardComponent,
     ExperienceCardComponent,
