@@ -1,628 +1,389 @@
-@media screen and (min-width: 240px) and (max-width: 400px) {  
-.home-container {
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   width: 100%;
-  height: 100vh;
-  padding-top: 1%;
-  position: relative;
-}
+} */
 
-.top-bar {
-display: flex;
-flex-direction: row;
-padding: 20px 20px 5% 20px;
-width: 100%;
-}
+/* Add this media query at the end of your CSS */
 
-.name {
-margin-left: 5%;
-}
-
-.icons {
-/* margin-left: 40px !important; */
-color: #ffffff; /* Adjust as needed */
-float: right;
-width: 100%;
-align-items: end;
-}
-
-.home-container {
-position: relative;
-}
-
-.blog-btn {
-background-color: #ffffff;
-color: black;
-font-weight: bolder;
-border-radius: 2px;
-cursor: pointer;
-width: 50px;
-height: 25px;
-font-size: 15px;
-float: right;
-}
-
-.btn-shine {
-background: linear-gradient(to right, #4d4d4d 0, #fff 10%, #4d4d4d 30%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-animation: shine 15s infinite linear;
-animation-fill-mode: forwards;
--webkit-text-size-adjust: none;
-font-weight: 600;
-text-decoration: none;
-white-space: nowrap;
-font-size: 20px; 
-}
-@-moz-keyframes shine {
-0% {
-  background-position: 0;
-}
-60% {
-  background-position: 580px;
-}
-100% {
-  background-position: 980px;
-}
-}
-@-webkit-keyframes shine {
-0% {
-  background-position: 0;
-}
-60% {
-  background-position: 580px;
-}
-100% {
-  background-position: 980px;
-}
-}
-@-o-keyframes shine {
-0% {
-  background-position: 0;
-}
-60% {
-  background-position: 580px;
-}
-100% {
-  background-position: 980px;
-}
-}
-@keyframes shine {
-0% {
-  background-position: 0;
-}
-60% {
-  background-position: 580px;
-}
-100% {
-  background-position: 980px;
-}
-}
-
-.header1 {
-font-size: 85px;
-font-family: Arial, Helvetica, sans-serif;
-color: rgb(196, 189, 189);
-text-align: center;
-line-height: 85px; /* Adjust this value to set the desired line spacing */
-}
-
-.cv-btn{
-  width: 40%;
-  height: 40px;
-  background-color: black;
-  color: white;
-  border: 2px solid white;
-  border-radius: 12px;
-  font-size: 20px;
-  margin-left: 28%;
-  
-}
-.home-header1{
-}
-
-}
-
-@media screen and (min-width: 400px) and (max-width: 768px) {  
-  .home-container {
-    width: 100%;
-    height: 100vh;
-    padding-top: 1%;
-    position: relative;
+@media only screen and (min-width: 330px) and (max-width: 768px) {
+  .square {
+    width: 270px !important;
+    height: 270px !important;
   }
   
-  .top-bar {
-  display: flex;
-  flex-direction: row;
-  padding: 20px 20px 5% 20px;
-  width: 100%;
-  /* background-color: red; */
+  .content h1 {
+    font-size: 10px !important;
+    margin-bottom: 10px;
   }
   
-  .name {
-  margin-left: 5%;
+  .content p {
+    font-size: 14px;
   }
   
-  .icons {
-  /* margin-left: 40px !important; */
-  color: #ffffff; /* Adjust as needed */
-  float: right;
-  width: 100%;
-  align-items: end;
-  }
-  
-  .home-container {
-  position: relative;
-  }
-  
-  .blog-btn {
-  background-color: #ffffff;
-  color: black;
-  font-weight: bolder;
-  border-radius: 2px;
-  cursor: pointer;
-  width: 50px;
-  height: 25px;
-  font-size: 15px;
-  float: right;
-  }
-  
-  .btn-shine {
-  background: linear-gradient(to right, #4d4d4d 0, #fff 10%, #4d4d4d 30%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: shine 15s infinite linear;
-  animation-fill-mode: forwards;
-  -webkit-text-size-adjust: none;
-  font-weight: 600;
-  text-decoration: none;
-  white-space: nowrap;
-  font-size: 20px; 
-  }
-  @-moz-keyframes shine {
-  0% {
-    background-position: 0;
-  }
-  60% {
-    background-position: 580px;
-  }
-  100% {
-    background-position: 980px;
-  }
-  }
-  @-webkit-keyframes shine {
-  0% {
-    background-position: 0;
-  }
-  60% {
-    background-position: 580px;
-  }
-  100% {
-    background-position: 980px;
-  }
-  }
-  @-o-keyframes shine {
-  0% {
-    background-position: 0;
-  }
-  60% {
-    background-position: 580px;
-  }
-  100% {
-    background-position: 980px;
-  }
-  }
-  @keyframes shine {
-  0% {
-    background-position: 0;
-  }
-  60% {
-    background-position: 580px;
-  }
-  100% {
-    background-position: 980px;
-  }
-  }
-  
-  .header1 {
-  font-size: 95px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: rgb(196, 189, 189);
-  text-align: center;
-  margin-top: 10%;
-  line-height: 98px; /* Adjust this value to set the desired line spacing */
-  }
-  
-  .cv-btn{
-    width: 40%;
-    height: 40px;
-    background-color: black;
+  .DrugRadar {
+    font-size: 35px !important;
+    line-height: 35px !important;
     color: white;
-    border: 2px solid white;
-    border-radius: 12px;
-    font-size: 20px;
-    margin-left: 28%;
-    margin-top: 10%;
-    
-  }
-  .home-header1{
     /* background-color: green; */
   }
-  
-  }
 
-@media screen and (min-width: 768px) and (max-width: 819px) {  
-  .home-container {
+
+  .container {
     width: 100%;
-    height: 100vh;
-    padding-top: 1%;
-    position: relative;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background:  linear-gradient(178.6deg, rgb(20, 36, 50) 11.8%, rgb(124, 143, 161) 83.8%); */
   }
   
-  .top-bar {
-  display: flex;
-  flex-direction: row;
-  padding: 20px 20px 5% 20px;
-  width: 100%;
-  }
-  
-  .name {
-  margin-left: 5%;
-  }
-  
-  .icons {
-  /* margin-left: 40px !important; */
-  color: #ffffff; /* Adjust as needed */
-  float: right;
-  width: 100%;
-  align-items: end;
-  }
-  
-  .home-container {
-  position: relative;
-  }
-  
-  .blog-btn {
-  background-color: #ffffff;
-  color: black;
-  font-weight: bolder;
-  border-radius: 2px;
-  cursor: pointer;
-  width: 55px;
-  height: 30px;
-  font-size: 20px;
-  float: right;
-  }
-  
-  .btn-shine {
-  background: linear-gradient(to right, #4d4d4d 0, #fff 10%, #4d4d4d 30%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: shine 15s infinite linear;
-  animation-fill-mode: forwards;
-  -webkit-text-size-adjust: none;
-  font-weight: 600;
-  text-decoration: none;
-  white-space: nowrap;
-  font-size: 40px; 
-  }
-  @-moz-keyframes shine {
-  0% {
-    background-position: 0;
-  }
-  60% {
-    background-position: 580px;
-  }
-  100% {
-    background-position: 980px;
-  }
-  }
-  @-webkit-keyframes shine {
-  0% {
-    background-position: 0;
-  }
-  60% {
-    background-position: 580px;
-  }
-  100% {
-    background-position: 980px;
-  }
-  }
-  @-o-keyframes shine {
-  0% {
-    background-position: 0;
-  }
-  60% {
-    background-position: 580px;
-  }
-  100% {
-    background-position: 980px;
-  }
-  }
-  @keyframes shine {
-  0% {
-    background-position: 0;
-  }
-  60% {
-    background-position: 580px;
-  }
-  100% {
-    background-position: 980px;
-  }
-  }
-  
-  .header1 {
-  font-size: 130px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: rgb(196, 189, 189);
-  text-align: center;
-  line-height: 130px; /* Adjust this value to set the desired line spacing */
-  }
-  
-  .cv-btn{
-    width: 50%;
-    height: 55px;
-    background-color: black;
-    color: white;
-    border: 2px solid white;
-    border-radius: 12px;
-    font-size: 30px;
-    margin-left: 25%;
-    margin-top: 10%;
-    
-  }
-  
-  }
-
-  @media screen and (min-width: 820px) and (max-width: 1024px) {  
-    .home-container {
-      width: 100%;
-      height: 100vh;
-      padding-top: 1%;
-      position: relative;
-    }
-    
-    .top-bar {
+  .content{
+    width: 100%;
+    min-height: 100vh;
+    /* position: absolute; */
+    top:0;
+    left:0;
     display: flex;
-    flex-direction: row;
-    padding: 20px 20px 5% 20px;
-    width: 100%;
-    }
-    
-    .name {
-    margin-left: 5%;
-    }
-    
-    .icons {
-    /* margin-left: 40px !important; */
-    color: #ffffff; /* Adjust as needed */
-    float: right;
-    width: 100%;
-    align-items: end;
-    }
-    
-    .home-container {
-    position: relative;
-    }
-    
-    .blog-btn {
-    background-color: #ffffff;
-    color: black;
-    font-weight: bolder;
-    border-radius: 2px;
-    cursor: pointer;
-    width: 72px;
-    height: 37px;
-    font-size: 25px;
-    float: right;
-    }
-    
-    .btn-shine {
-    background: linear-gradient(to right, #4d4d4d 0, #fff 10%, #4d4d4d 30%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: shine 15s infinite linear;
-    animation-fill-mode: forwards;
-    -webkit-text-size-adjust: none;
-    font-weight: 600;
-    text-decoration: none;
-    white-space: nowrap;
-    font-size: 40px; 
-    }
-    @-moz-keyframes shine {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+  
+  }
+  
+  .content h1{
+    font-size: 45px;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  
+  .content p{
+    font-size: 16px;
+    color: #fff;
+  }
+  
+ 
+  
+  /* this is the text, when you hover on button */
+  .hover-text {
+  position: absolute;
+  box-sizing: border-box;
+  content: attr(data-text);
+  color: var(--animation-color);
+  width: 0%;
+  inset: 0;
+  border-right: var(--border-right) solid var(--animation-color);
+  overflow: hidden;
+  transition: 0.5s;
+  -webkit-text-stroke: 1px var(--animation-color);
+  }
+  /* hover */
+  .button:hover .hover-text {
+  width: 100%;
+  filter: drop-shadow(0 0 23px var(--animation-color))
+  }
+  
+  
+  
+  /*  */
+  
+  .square {
+  position: relative;
+  margin: 0 10px;
+  width: 400px; height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  
+  .square .one {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 32% 58% 69% 43% / 48% 32% 59% 55%;
+  transition: 0.5s;
+  animation: animate 6s linear infinite;
+  
+  
+  }
+  
+  .twitch:hover .one {
+  border: none;
+  background:rgb(255, 255, 255);;
+  }
+  
+  .square .two {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+  transition: 0.5s;
+  animation: animate 6s linear infinite;
+  }
+  
+  .twitch:hover .two {
+  border: none;
+  background: rgb(255, 255, 255);;
+  
+  }
+  
+  
+  
+  
+  .square .three {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 31% 45% 74% 35% / 38% 56% 51% 37%;
+  transition: 0.5s;
+  animation: animate2 10s linear infinite;
+  }
+  .twitch:hover .three {
+  border: none;
+  background:rgb(20, 36, 50);;
+  }
+  
+  .circle {
+  position: relative;
+  padding: 40px 60px;
+  text-align: center;
+  transition: 0.5s;
+  z-index: 1000;
+  
+  }
+  
+  .square:hover{
+  color: white;
+  }
+  
+  .content:hover {
+  
+  color: #ffffff;
+  }
+  
+  @keyframes animate {
     0% {
-      background-position: 0;
-    }
-    60% {
-      background-position: 580px;
+        transform: rotate(0deg);
     }
     100% {
-      background-position: 980px;
+        transform: rotate(360deg);
     }
-    }
-    @-webkit-keyframes shine {
+  }
+  
+  @keyframes animate2 {
     0% {
-      background-position: 0;
-    }
-    60% {
-      background-position: 580px;
+        transform: rotate(360deg);
     }
     100% {
-      background-position: 980px;
+        transform: rotate(0deg);
     }
-    }
-    @-o-keyframes shine {
-    0% {
-      background-position: 0;
-    }
-    60% {
-      background-position: 580px;
-    }
-    100% {
-      background-position: 980px;
-    }
-    }
-    @keyframes shine {
-    0% {
-      background-position: 0;
-    }
-    60% {
-      background-position: 580px;
-    }
-    100% {
-      background-position: 980px;
-    }
-    }
-    
-    .header1 {
-    font-size: 150px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(196, 189, 189);
-    text-align: center;
-    line-height: 150px; /* Adjust this value to set the desired line spacing */
-    }
-    
-    .cv-btn{
-      width: 60%;
-      height: 65px;
-      background-color: black;
-      color: white;
-      border: 2px solid white;
-      border-radius: 12px;
-      font-size: 35px;
-      margin-left: 23%;
-      margin-top: 10%;
-      
-    }
-    
-    }
-    
+  
+  }
+  
+  .DrugRadar{
+    font-size: 50px;
+    line-height: 50px;
+  }
+}
 
-    @media screen and (min-width: 1025px) {  
-      .home-container {
-        width: 100%;
-        height: 100vh;
-        padding-top: 1%;
-        position: relative;
-      }
-      
-      .top-bar {
-      display: flex;
-      flex-direction: row;
-      padding: 20px 20px 0 20px;
-      width: 100%;
-      /* background-color: blue; */
-      }
-      
-      .name {
-      margin-left: 5%;
-      }
-      
-      .icons {
-      /* margin-left: 40px !important; */
-      color: #ffffff; /* Adjust as needed */
-      float: right;
-      width: 100%;
-      align-items: end;
-      }
-      
-      .home-container {
-      position: relative;
-      }
-      
-      .blog-btn {
-      background-color: #ffffff;
-      color: black;
-      font-weight: bolder;
-      border-radius: 2px;
-      cursor: pointer;
-      width: 72px;
-      height: 37px;
-      font-size: 25px;
-      float: right;
-      }
-      
-      .btn-shine {
-      background: linear-gradient(to right, #4d4d4d 0, #fff 10%, #4d4d4d 30%);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      animation: shine 15s infinite linear;
-      animation-fill-mode: forwards;
-      -webkit-text-size-adjust: none;
-      font-weight: 600;
-      text-decoration: none;
-      white-space: nowrap;
-      font-size: 40px; 
-      }
-      @-moz-keyframes shine {
-      0% {
-        background-position: 0;
-      }
-      60% {
-        background-position: 580px;
-      }
-      100% {
-        background-position: 980px;
-      }
-      }
-      @-webkit-keyframes shine {
-      0% {
-        background-position: 0;
-      }
-      60% {
-        background-position: 580px;
-      }
-      100% {
-        background-position: 980px;
-      }
-      }
-      @-o-keyframes shine {
-      0% {
-        background-position: 0;
-      }
-      60% {
-        background-position: 580px;
-      }
-      100% {
-        background-position: 980px;
-      }
-      }
-      @keyframes shine {
-      0% {
-        background-position: 0;
-      }
-      60% {
-        background-position: 580px;
-      }
-      100% {
-        background-position: 980px;
-      }
-      }
-      
-      .header1 {
-        /* background-color: red; */
-      margin-left: 1%;
-      font-size: 180px;
-      font-family: Arial, Helvetica, sans-serif;
-      color: rgb(196, 189, 189);
-      text-align: left;
-      line-height: 180px; /* Adjust this value to set the desired line spacing */
-      }
-      
-      .cv-btn{
-        width: 20%;
-        height: 65px;
-        background-color: rgb(0, 0, 0);
-        color: rgb(255, 255, 255);
-        border: 2px solid rgb(255, 255, 255);
-        border-radius: 12px;
-        font-size: 30px;
-        float: right; 
-        margin-top: -7%;
-        margin-right: 5%;
-      }
-      .home-header1{
 
-      }
-      
-      }
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* background:  linear-gradient(178.6deg, rgb(20, 36, 50) 11.8%, rgb(124, 143, 161) 83.8%); */
+}
 
+.content{
+  width: 100%;
+  min-height: 100vh;
+  /* position: absolute; */
+  top:0;
+  left:0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: red; */
+
+}
+
+.content h1{
+  font-size: 45px;
+  color: #ffffff;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.content p{
+  font-size: 16px;
+  color: #fff;
+}
+
+/* === removing default button style ===*/
+.button {
+margin: 0;
+height: auto;
+background: transparent;
+padding: 0;
+border: none;
+}
+
+/* button styling */
+.button {
+--border-right: 6px;
+/* --text-stroke-color: rgba(255,255,255,0.6); */
+--animation-color:rgb(20, 36, 50);
+--fs-size: 2em;
+letter-spacing: 3px;
+text-decoration: none;
+font-size: var(--fs-size);
+font-family: "Arial";
+position: relative;
+text-transform: uppercase;
+color: transparent;
+-webkit-text-stroke: 1px var(--text-stroke-color);
+}
+/* this is the text, when you hover on button */
+.hover-text {
+position: absolute;
+box-sizing: border-box;
+content: attr(data-text);
+color: var(--animation-color);
+width: 0%;
+inset: 0;
+border-right: var(--border-right) solid var(--animation-color);
+overflow: hidden;
+transition: 0.5s;
+-webkit-text-stroke: 1px var(--animation-color);
+}
+/* hover */
+.button:hover .hover-text {
+width: 100%;
+filter: drop-shadow(0 0 23px var(--animation-color))
+}
+
+
+
+/*  */
+
+.square {
+position: relative;
+margin: 0 10px;
+width: 400px; height: 400px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.square .one {
+position: absolute;
+width: 100%;
+height: 100%;
+border: 2px solid rgb(255, 255, 255);
+border-radius: 32% 58% 69% 43% / 48% 32% 59% 55%;
+transition: 0.5s;
+animation: animate 6s linear infinite;
+
+
+}
+
+.twitch:hover .one {
+border: none;
+background:rgb(255, 255, 255);;
+}
+
+.square .two {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+border: 2px solid rgb(255, 255, 255);
+border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+transition: 0.5s;
+animation: animate 6s linear infinite;
+}
+
+.twitch:hover .two {
+border: none;
+background: rgb(255, 255, 255);;
+
+}
+
+
+
+
+.square .three {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+border: 2px solid rgb(255, 255, 255);
+border-radius: 31% 45% 74% 35% / 38% 56% 51% 37%;
+transition: 0.5s;
+animation: animate2 10s linear infinite;
+}
+.twitch:hover .three {
+border: none;
+background:rgb(20, 36, 50);;
+}
+
+.circle {
+position: relative;
+padding: 40px 60px;
+text-align: center;
+transition: 0.5s;
+z-index: 1000;
+
+}
+
+.square:hover{
+color: white;
+}
+
+.content:hover {
+
+color: #ffffff;
+}
+
+@keyframes animate {
+  0% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(360deg);
+  }
+}
+
+@keyframes animate2 {
+  0% {
+      transform: rotate(360deg);
+  }
+  100% {
+      transform: rotate(0deg);
+  }
+
+}
+
+.DrugRadar{
+  font-size: 50px;
+  line-height: 50px;
+}
+
+h2{
+  color: white;
+}

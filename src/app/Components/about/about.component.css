@@ -65,7 +65,7 @@
         width:100%;
         padding: 3%;
         border-radius: 8px;
-        border: 2px solid white;
+        border: 2px solid rgb(75, 73, 73);
         color: rgb(201, 198, 198);
         font-size: 20px;
         font-family: Arial, Helvetica, sans-serif;
@@ -79,7 +79,7 @@
     
     .side-text-container1 {
         border-radius: 8px;
-        border: 2px solid rgb(179, 177, 177);
+        border: 2px solid rgb(75, 73, 73);
         padding: 1%;
         width: 100%;
         margin: 1%;
@@ -90,7 +90,7 @@
     }
     .side-text-container2 {
         border-radius: 8px;
-        border: 2px solid rgb(169, 167, 167);
+        border: 2px solid rgb(75, 73, 73);
         padding: 1%;
         color: rgb(201, 198, 198);
         width: 70%;
@@ -104,7 +104,7 @@
     }
     .side-text-container3 {
         border-radius: 8px;
-        border: 2px solid rgb(173, 171, 171);
+        border: 2px solid rgb(75, 73, 73);
         /* padding: 1%; */
         color: rgb(201, 198, 198);
         width: 100%;
@@ -243,7 +243,7 @@
         width:100%;
         padding: 3%;
         border-radius: 8px;
-        border: 2px solid white;
+        border: 2px solid rgb(75, 73, 73);
         color: rgb(201, 198, 198);
         font-size: 30px;
         font-family: Arial, Helvetica, sans-serif;
@@ -257,7 +257,7 @@
     
     .side-text-container1 {
         border-radius: 8px;
-        border: 2px solid rgb(179, 177, 177);
+        border: 2px solid rgb(75, 73, 73);
         padding: 1%;
         width: 100%;
         margin: 1%;
@@ -268,7 +268,7 @@
     }
     .side-text-container2 {
         border-radius: 8px;
-        border: 2px solid rgb(169, 167, 167);
+        border: 2px solid rgb(75, 73, 73);
         padding: 1%;
         color: rgb(201, 198, 198);
         width: 70%;
@@ -282,7 +282,7 @@
     }
     .side-text-container3 {
         border-radius: 8px;
-        border: 2px solid rgb(173, 171, 171);
+        border: 2px solid rgb(75, 73, 73);
         /* padding: 1%; */
         color: rgb(201, 198, 198);
         width: 100%;
@@ -362,7 +362,7 @@
 .aboutme-container {
     width: 100%;
     height: 100%;
-    background-color: rgb(0, 0, 0);
+    /* background-color: rgb(0, 0, 0); */
     margin-top: 6%;
     /* border-radius: 8px;
     border: 2px solid white; */
@@ -387,12 +387,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 
 }
 
 .profile-pic {
     width: 70%;
     opacity: 60%;
+    background-color: yellow;
+    border-radius: 10%;
+
 
 }
 
@@ -419,20 +423,23 @@ p, h1 {
     width: 63%;
     padding: 1%;
     border-radius: 8px;
-    border: 2px solid white;
+    /* border: 2px solid white; */
     color: rgb(201, 198, 198);
-    font-size: 20px;
+    font-size: 23px;
     font-family: Arial, Helvetica, sans-serif;
-    line-height: 27px;
+    line-height: 30px;
     margin-left: 10%;
     /* background-color: rgb(20, 111, 108); */
     z-index: 1 !important;
+    text-align: justify;
+    /* border: 2px solid rgb(75, 73, 73); */
+
 
 }
 
 .side-text-container1 {
     border-radius: 8px;
-    border: 2px solid rgb(179, 177, 177);
+    border: 1px solid rgb(75, 73, 73);
     padding: 1%;
     font-size: 20px;
     width: 60%;
@@ -444,7 +451,7 @@ p, h1 {
 }
 .side-text-container2 {
     border-radius: 8px;
-    border: 2px solid rgb(169, 167, 167);
+    border: 1px solid rgb(75, 73, 73);
     padding: 1%;
     font-size: 20px;
     color: rgb(201, 198, 198);
@@ -452,24 +459,25 @@ p, h1 {
     margin: 1%;
     height: 60%;
     /* background-color: rgb(131, 131, 19); */
-    margin-left: 20%;
+    margin-left: -7%;
     z-index: 1 !important;
 
 
 
 }
 .side-text-container3 {
-    border-radius: 8px;
-    border: 2px solid rgb(173, 171, 171);
+    border-radius: 5px;
+    border: 1px solid rgb(255, 255, 255);
     padding: 1%;
     font-size: 20px;
     color: rgb(201, 198, 198);
-    width: 60%;
+    width: 30%;
     margin: 1%;
     height: 60%;
     /* background-color: rgb(131, 131, 19); */
-    margin-left: 7%;
+    margin-left: -2%;
     z-index: 1 !important;
+    background-color: rgb(5, 107, 20);
 
 
 }
@@ -509,3 +517,104 @@ p, h1 {
 .aboutme-container{
     /* background-color: rgb(6, 72, 81); */
 }
+
+
+.float {
+    animation: float 5s infinite ease-in-out;
+  }
+  
+  @keyframes float {
+    0% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0px);
+    }
+  }
+  
+
+  .dialog-box {
+    position: relative; /* Needed for absolute positioning of the arrow */
+    display: inline-block; /* Allows positioning within text flow */
+    background-color: #000000; /* Light background color */
+    border: 2px solid #ddd; 
+    border-radius: 5px; /* Rounded corners */
+    padding: 6px 10px 10px 7px; /* Padding for content */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    max-width: 300px; /* Optional maximum width */
+  }
+  
+  .dialog-arrow {
+    position: absolute; /* Position the arrow relative to the dialog box */
+    top: 50%; /* Center the arrow vertically */
+    left: -10px; /* Place the arrow slightly outside the left edge */
+    transform: translateY(-50%); /* Adjust vertical positioning if needed */
+    width: 0;
+    height: 0;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid #fff; 
+  }
+  
+  .dialog-box:after {
+    content: ""; /* Add subtle border highlight */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit; /* Inherit border radius from dialog box */
+  }
+
+  .message{
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    /* font-weight: bold; */
+  }
+
+
+
+  .dialog-box {
+    /* Existing styles... */
+    animation: scale 2s infinite alternate ease-in-out;
+  }
+  
+  @keyframes scale {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.02);
+    }
+  }
+  
+  .dialog-box:hover {
+    /* Existing styles... */
+    animation: scales 2s infinite alternate ease-in-out;
+  }
+  
+  @keyframes scales {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+  }
+
+
+  .profile-pic {
+    border: 2px solid transparent; 
+    transition: transform 0.6s ease-in-out; 
+    
+  }
+  
+  
+  .profile-pic:hover {
+    transform: scale(1.04);
+    /* border-color: #ffffff;  */
+  }
+  
+  

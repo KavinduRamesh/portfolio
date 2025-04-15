@@ -13,7 +13,7 @@ export class ProjectsComponent {
     {
       projectHeader: "header1",
       gitImg: "../../../assets/images/git.png",
-      projectImg: "../../assets/images/bg1.jpg",
+      projectImg: "../../assets/images/code1.png",
       projectDesc: "This is the first project description. And i have develop this project usubg these technologies. uploaded to git",
       projTag1: "#Angular",
       projTag2: "#Spring",
@@ -22,7 +22,7 @@ export class ProjectsComponent {
     {
       projectHeader: "header2",
       gitImg: "../../../assets/images/git.png",
-      projectImg: "../../assets/images/bg1.jpg",
+      projectImg: "../../assets/images/code1.png",
       projectDesc: "This is the first project description. And i have develop this project usubg these technologies. uploaded to git",
       projTag1: "#React",
       projTag2: "#Node.js",
@@ -31,7 +31,7 @@ export class ProjectsComponent {
     {
       projectHeader: "header3",
       gitImg: "../../../assets/images/git.png",
-      projectImg: "../../assets/images/bg1.jpg",
+      projectImg: "../../assets/images/code1.png",
       projectDesc: "This is the first project description. And i have develop this project usubg these technologies. uploaded to git",
       projTag1: "#Vue",
       projTag2: "#Express",
@@ -40,7 +40,7 @@ export class ProjectsComponent {
     {
       projectHeader: "header4",
       gitImg: "../../../assets/images/git.png",
-      projectImg: "../../assets/images/bg1.jpg",
+      projectImg: "../../assets/images/code1.png",
       projectDesc: "This is the first project description. And i have develop this project usubg these technologies. uploaded to git",
       projTag1: "#Angular",
       projTag2: "#Spring",
@@ -49,7 +49,7 @@ export class ProjectsComponent {
     {
       projectHeader: "header5",
       gitImg: "../../../assets/images/git.png",
-      projectImg: "../../assets/images/bg1.jpg",
+      projectImg: "../../assets/images/code1.png",
       projectDesc: "This is the first project description. And i have develop this project usubg these technologies. uploaded to git",
       projTag1: "#React",
       projTag2: "#Node.js",
@@ -58,7 +58,7 @@ export class ProjectsComponent {
     {
       projectHeader: "header6",
       gitImg: "../../../assets/images/git.png",
-      projectImg: "../../assets/images/bg1.jpg",
+      projectImg: "../../assets/images/code1.png",
       projectDesc: "This is the first project description. And i have develop this project usubg these technologies. uploaded to git",
       projTag1: "#Vue",
       projTag2: "#Express",
